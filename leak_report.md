@@ -1,4 +1,4 @@
 # Leak report
 
-_Use this document to describe whatever memory leaks you find in `clean_whitespace.c` and how you might fix them. You should also probably remove this explanatory text._
+When the Char strip was called and was not freed after it was used, that caused the memory leak.But  by freeing the memory after "cleaned" was used, I was able to fix the code_
 
